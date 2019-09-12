@@ -3,7 +3,7 @@ In the application we will implement controls and triggers
 the controls that oversee here are:
    Checkbox
    TextBox
-   Radio bottoms
+   Radio buttoms
 '''
 
 import sys
