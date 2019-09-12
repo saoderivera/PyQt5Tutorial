@@ -1,9 +1,7 @@
 '''
 In the application we will implement controls and triggers
 the controls that oversee here are:
-   Checkbox
    TextBox
-   Radio bottoms
 '''
 
 import sys
@@ -104,13 +102,6 @@ class LEditButtonClass(QMainWindow):
 
         self.setCentralWidget(self.main_widget)       # Creates the window with all the elements
         self.resize(300, 100)                         # Resize the window
-
-
-    def ChangeTitle(self, state):
-        if state == Qt.Checked:
-            self.setWindowTitle('Title : Control Title ')
-        else:
-            self.setWindowTitle(' ')
 
 
     def CopyText(self):
